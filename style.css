@@ -1,0 +1,286 @@
+/* 
+Cores
+#0a0a0a preto
+#2C2C2C cinza escuro
+#4a4a4a cinza claro
+#20c20e verde
+#00bfff azul
+#8A2BE2 roxo
+#ffd700 amarelo
+#f8f8f8 branco
+*/
+
+html {
+    min-width: 800px;
+    color: #F8F8F8;
+    font-family: "Source Code Pro", monospace;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+}
+
+#index {
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#projetos {
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contato {
+    background-image: url(bg3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 30%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #2C2C2C;
+    padding-inline: 15%;
+    padding-block: 0.5%;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+}
+
+header #logo {
+    max-height: 80px;
+    border-radius: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #F8F8F8;
+    font-weight: 700;
+}
+
+.inicio {
+    padding-top: 80px;
+    padding-inline: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #00bfff;
+}
+
+
+/* Sobre mim */
+
+.apresentacao {
+    display: grid;
+    padding-inline: 25px;
+    grid-template-columns:25% 1fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    background-color: #2C2C2C;
+    border-radius: 30px;
+    margin-block: 25px;
+    margin-inline: 10%;
+}
+
+#intro{
+    padding: 3%;
+}
+
+#intro h1 {
+    font-weight: 100;
+    color: #ffd700;
+    font-weight: 700;
+}
+
+#intro h3 {
+    color: #F8F8F8;
+    font-weight: 500;
+}
+
+figure {
+    margin: 0px;
+    padding: 20px;
+}
+
+#foto_perfil {
+    max-width: 100%;
+    border-radius: 80px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    padding-inline: 10%;
+    align-items: center;
+}
+
+.trajetoria_text {
+    text-align: justify;
+    margin-inline: 50px;
+}
+
+.trajetoria_text h2 {
+    font-weight: 700;
+    color: #8A2BE2;
+}
+
+.trajetoria_text h3 {
+    font-weight: 550;
+    color: #20c20e;
+}
+
+.trajetoria_text h4 {
+    font-weight: 400;
+    color: #F8F8F8;
+}
+
+.trajetoria_midia img {
+    max-height: 502px;
+}
+
+.motivacoes_text {
+    text-align: justify;
+    margin-inline: 50px;
+}
+
+.motivacoes_text h2 {
+    font-weight: 700;
+    color: #8A2BE2;
+}
+
+.motivacoes_text h4 {
+    font-weight: 400;
+    color: #F8F8F8;
+}
+
+
+/*Projetos*/
+
+.projeto1 {
+    display: grid;
+    margin-inline: 10%;
+    padding-bottom: 1%;
+    align-items: center;
+    background-color: #2C2C2C;
+    border-radius: 40px;
+}
+
+.projeto1_sobre {
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    align-items: center;
+}
+
+.projeto1_text {
+    text-align: justify;
+    margin-inline: 50px;
+    margin-block: 25px;
+}
+
+.projeto1_text h2 {
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.projeto1_text h3 {
+    font-weight: 550;
+    color: #F8F8F8;
+}
+
+.projeto1_text h4 {
+    font-weight: 400;
+    color: #F8F8F8;
+}
+
+.botao {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: #8A2BE2;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-inline: auto;
+    text-decoration: none;
+}
+
+.botao img {
+    height: 50px;
+}
+
+.botao h4 {
+    color: #0a0a0a;
+    font-weight: 700;
+}
+
+.projeto1_midia {
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    align-items: center;
+}
+
+.projeto1 figure {
+    padding: 0;
+}
+
+#foto_grupo07 {
+    max-height: 360px;
+    border-radius: 30px;
+    margin-left: 2%;
+}
+
+#foto_prototipo {
+    max-height: 360px;
+    border-radius: 30px;
+    margin-left: 12%;
+}
+
+
+/* Contato */
+.contatos h1 {
+    display: grid;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 48px;
+    color: #20c20e;
+}
+
+.comunicacao {
+    display: grid;
+    margin-top: 2px;
+    margin-inline: 25%;
+    padding: 1%;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#meus_links {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.redes_logo {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.comunicacao h3 {
+    font-weight: 550;
+    color: #0a0a0a;
+}
