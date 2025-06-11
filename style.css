@@ -20,19 +20,19 @@ html {
 }
 
 #index {
-    background-image: url(bg1.png);
+    background-image: url(imagens/bg1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #projetos {
-    background-image: url(bg2.png);
+    background-image: url(imagens/bg2.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 #contato {
-    background-image: url(bg3.png);
+    background-image: url(imagens/bg3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
